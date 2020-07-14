@@ -6,7 +6,7 @@ Created on Mon Jul 13 09:35:45 2020
 """
 from flask import Flask, render_template
 import cv2
-from tensorflow.keras.models import load_model         
+from keras.models import load_model         
 
 myapp = Flask(__name__)
 
