@@ -12,7 +12,8 @@ myapp = Flask(__name__)
 
 @myapp.route('/')
 def fun1():
-    return render_template('index.html')
+    return 'its working'
+    #return render_template('index.html')
     
 @myapp.route('/predict',methods = ['GET','POST'])
 def fun2():
